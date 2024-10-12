@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+ ul.list-inline {
+  padding-left: 0;
+  display: flex;
+  gap: 10px;
+}
+
+ul.list-inline li {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Letras blancas */
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+/* Ajustes de formulario */
+form {
+  margin-top: 20px;
+}
+
+input.form-control {
+  margin-bottom: 10px;
+}
+
+button.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px;
+}
+
+button.btn:hover {
+  background-color: #0056b3;
+}
